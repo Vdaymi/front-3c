@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend basics">
+    <meta name="keywords" content="frontend, html, css">
+    <link rel="stylesheet" href="style.css">
+    <title>Філь В.О. ІС-21 Lab3</title>
+    <style>
+        table {
+        border-collapse: collapse;
+        text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 90px;
+            height: 30px;
+        }
+
+        .row1 {
+            background-color: #668f8f;
+            color: #4A0000;
+        }
+
+        .row2 {
+            background-color: #f5f566;
+            color: #4A0000;
+        }
+
+        .row1:hover {
+            background-color: #f5f566;
+        }
+
+        .row2:hover {
+            background-color: #668f8f;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr class="row1">
+            <td rowspan="2">Філь</td>
+            <td colspan="2">Вадим</td>
+            <td>Олександрович</td>
+            <td> </td>
+        </tr>
+        <tr class="row2">
+            <td rowspan="2">ІС-21</td>
+            <td rowspan="2">ЛР №2</td>
+            <td rowspan="3">Варіант 6</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+    <br>
+    <div class="phones">
+        <div class="phone">
+            <div class="screen">
+                <p>12:00</p>
+            </div>
+            <div class="buttons">
+                <div class="button" style="top: 120px; left: 25px;"></div>
+                <div class="button" style="top: 120px; left: 60px;"></div>
+                <div class="button" style="top: 120px; left: 95px;"></div>
+                
+                <div class="button" style="top: 160px; left: 25px;"></div>
+                <div class="button" style="top: 160px; left: 60px;"></div>
+                <div class="button" style="top: 160px; left: 95px;"></div>
+
+                <div class="button" style="top: 200px; left: 25px;"></div>
+                <div class="button" style="top: 200px; left: 60px;"></div>
+                <div class="button" style="top: 200px; left: 95px;"></div>
+            </div>
+        </div>
+        <div class="phone-tr">
+            <div class="screen-tr">
+                <p>12:00</p>
+            </div>
+            <div class="buttons-tr">
+                <div class="button-tr" id="btn1"></div>
+                <div class="button-tr" id="btn2"></div>
+                <div class="button-tr" id="btn3"></div>
+
+                <div class="button-tr" id="btn4"></div>
+                <div class="button-tr" id="btn5"></div>
+                <div class="button-tr" id="btn6"></div>
+
+                <div class="button-tr" id="btn7"></div>
+                <div class="button-tr" id="btn8"></div>
+                <div class="button-tr" id="btn9"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

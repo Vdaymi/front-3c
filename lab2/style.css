@@ -1,0 +1,93 @@
+.phones{
+    display: flex;
+}
+.phone {
+    width: 150px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #dfe7bd;
+    border-radius: 20px;
+    position: relative;    
+}
+
+.screen {
+    width: 120px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons {
+    position: relative;
+    top: 50px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #3c3b5a;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.phone-tr {
+    margin-left:20px;
+    width: 150px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #dfe7bd;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.screen-tr {
+    width: 120px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(0, 20px);
+}
+
+.buttons-tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.button-tr {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #3c3b5a;
+    border-radius: 50%;
+}
+
+#btn1 { transform: translate(0px, 30px); }
+#btn2 { transform: translate(5px, 30px); }
+#btn3 { transform: translate(10px, 30px); }
+#btn4 { transform: translate(0px, 40px); }
+#btn5 { transform: translate(5px, 40px); }
+#btn6 { transform: translate(10px, 40px); }
+#btn7 { transform: translate(0px, 50px); }
+#btn8 { transform: translate(5px, 50px); }
+#btn9 { transform: translate(10px, 50px); }

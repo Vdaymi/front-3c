@@ -5,36 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Frontend basics">
     <meta name="keywords" content="frontend, html, css">
-    <title>Філь В.О. ІС-21</title>
+    <title>Філь В.О. ІС-21 Labs</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 20px;
+        }
+        .lab-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .lab-link {
+            margin: 5px;
+            width: 250px;
+            padding: 10px;
+            background-color: #8fd8f8;
+            color: #007acc;
+            text-decoration: none;
+            border: 2px solid #007acc;
+            border-radius: 10px;    
+            text-align: center;
+            font-weight: bold;
+        }
+        .lab-link:hover {
+            background-color: #007acc;
+            color: #ffffff;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Філь Вадим Олександрович</h2>
-    <p>Дата народження: 12.10.2004р.; Місце народження: м. Носівка</p>
-    <p>Освіта: Носівська міська гімназія, Київський політехнічний інститут імені Ігоря Сікорського</p>
-    <p>
-        Хобі: 
-        <ul>
-            <li>Їзда на велосипеді</li>
-            <li>Перегляд фільми та серіалів</li>
-            <li>Комп'ютерні ігри</li>
-        </ul>
-    </p>
-    <p>
-        Улюблені фільми:
-        <ol>    
-            <li>"Оппенгеймер", 2023</li>
-            <li>Серія фільмів "Дедпул"</li>
-            <li>"Топ Ґан: Меверік" 2022</li>
-        </ol>
-    </p>
-    <p>Львів — місто в Україні, адміністративний центр області, агломерації, 
-        району, міської громади, національно-культурний та освітньо-науковий 
-        осередок країни, великий промисловий центр і транспортний вузол, 
-        вважається столицею Галичини та центром Західної України. 
-        За кількістю населення — п'яте місто країни.
-    </p>
-    <a href="https://city-adm.lviv.ua/" target="_blank">
-        <img src="https://gohotels.com.ua/images/stories/f08072159a443e07501f3df97987f8a3.jpg">
-    </a>
+    <div class="container">
+        <h1>Посилання на лабораторні роботи</h1>
+        <h1>Філь Вадим Олександрович ІС-21</h1>
+        <div class="lab-container">
+            <a href="/lab1/index.html" target="_blank" class="lab-link">Лабораторна робота №1</a>
+            <a href="/lab2/index.html" target="_blank" class="lab-link">Лабораторна робота №2</a>
+            <a href="/lab3/index.html" target="_blank" class="lab-link">Лабораторна робота №3</a>
+        </div>
+        <h1>Посилання на репозиторій GitHub</h1>
+        <div class="lab-container">
+            <a href="https://github.com/Vdaymi/front-3c" target="_blank" class="lab-link">GitHub</a>
+        </div>
+    </div>
 </body>
 </html>
