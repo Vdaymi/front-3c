@@ -1,0 +1,83 @@
+
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #e8e6e6;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+input[type=submit]:hover {
+    background-color: #b4b4b4;
+    color: rgb(255, 255, 255);
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+    width: 400px;
+}
+
+.input-error {
+    border: 2px solid red !important;
+}
+
+.error-message{
+    color: red;
+}
+
+.sent-data {
+    width: 400px;
+    height: 200px;
+    background-color: #e8e6e6;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem 0;
+}
+
+table {
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+}
+#colorPicker{
+    width: 20vw;
+    height: 2vw;
+}
+.color{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend basics">
+    <meta name="keywords" content="frontend, html, css">
+    <link rel="stylesheet" href="style.css">
+    <title>Філь В.О. ІС-21 Lab3</title>
+   
+</head>
+<body>
+    <div class="form">
+        <form action="" method="post" class="form-input">
+            <h2>Форма для заповнення</h2>
+            
+            <label for="name">ПІБ</label>
+            <input type="text" name="name" id="name" placeholder="Уведіть ПІБ..." required />
+            <span class="error-message" id="name-error">&nbsp;</span>
+            
+            <label for="birthdate">Дата народження</label>
+            <input type="text" name="birthdate" id="birthdate" placeholder="Уведіть дату народження..." required />
+            <span class="error-message" id="birthdate-error">&nbsp;</span>
+            
+            <label for="address">Адреса</label>
+            <input type="text" name="address" id="address" placeholder="Уведіть адресу..." required />
+            <span class="error-message" id="address-error"> &nbsp;</span>
+            
+            <label for="email">Електронна пошта</label>
+            <input type="text" name="email" id="email" placeholder="Уведіть електронну пошту..." required />
+            <span class="error-message" id="email-error">&nbsp;</span>
+            
+            <label for="telegram">Telegram</label>
+            <input type="text" name="telegram" id="telegram" placeholder="Уведіть телеграм..." required />
+            <span class="error-message" id="telegram-error">&nbsp;</span>
+            
+            <input type="submit" value="Надіслати" id="submit-btn" />
+        </form>
+        <div>
+            <h2>Уведені дані</h2>
+            <div class="sent-data"><h2></div>
+        </div>
+    </div>
+    <div class="color">
+        <input type="color" id="colorPicker">
+        <div class="color-table">
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td id="color-change">6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td>34</td>
+                    <td>35</td>
+                    <td>36</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
