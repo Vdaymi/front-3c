@@ -1,0 +1,22 @@
+.gallery{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+    color: #333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#gallery-title{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #bcbcc1;
+    margin: 50px 10px 0 10px;
+    padding: 20px;
+    color: #333;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

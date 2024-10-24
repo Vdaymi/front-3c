@@ -1,0 +1,11 @@
+#element-seven:hover, #element-eight:hover {
+    cursor: pointer;
+}
+.elem-seven-color {
+    background-color: #561212;
+     color: #f9b702;
+}
+.elem-eight-color {
+    background-color: #007916;
+    color: #f9b702;
+}
